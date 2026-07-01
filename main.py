@@ -1,9 +1,3 @@
-"""
-SHARP EDGE - COMPLETE BACKEND (UPDATED)
-FastAPI + SQLAlchemy + PostgreSQL + Odds API Integration
-Copy this ENTIRE file into your main.py - replaces everything
-"""
-
 from fastapi import FastAPI, Depends, HTTPException, UploadFile, File, Query
 from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import create_engine, Column, String, Integer, Float, DateTime, Boolean, JSON, LargeBinary
